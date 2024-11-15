@@ -1,11 +1,3 @@
-
-
-/*
- * Install the Generative AI SDK
- *
- * $ npm install @google/generative-ai
- */
-
 import {
     GoogleGenerativeAI,
     HarmCategory,
@@ -30,8 +22,6 @@ import {
   async function run(prompt) {
     const chatSession = model.startChat({
       generationConfig,
-   // safetySettings: Adjust safety settings
-   // See https://ai.google.dev/gemini-api/docs/safety-settings
       history: [
       ],
     });
@@ -40,5 +30,4 @@ import {
     console.log(result.response.text());
     return result.response.text();
   }
-  
 export default  run;

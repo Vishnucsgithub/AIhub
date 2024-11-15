@@ -1,4 +1,5 @@
 import history_icon from './history_icon.png'
+import aihub_logo from './Aihub-logo.jpg'
 import menu_icon from './menu_icon.png'
 import plus_icon from './plus_icon.png'
 import question_icon from './question_icon.png'
@@ -29,5 +30,6 @@ export const assets = {
     message_icon,
     code_icon,
     send_icon,
-    gemini_icon
+    gemini_icon,
+    aihub_logo
 }
